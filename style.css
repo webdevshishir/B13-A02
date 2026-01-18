@@ -1,0 +1,129 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+ 
+}
+
+
+.header{
+    background-color: #412567 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+ 
+ .logo{
+    align-items: center;
+    color: white;
+
+ }
+ span{
+    
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1)));
+    
+    
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    
+  
+   
+ }
+ .nav-menu{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px ;
+
+
+ }
+ a{
+    color: white;
+    text-decoration: none;
+   font-weight: 200;
+   font-size: 15px;
+
+ }
+ 
+
+/* Sharred style */
+
+.button{
+    color: white;
+    font-weight: 600;
+  margin: 10px;
+   padding: 10px;
+   border-radius: 50px;
+background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+}
+
+.button:hover{
+   transform: translateY(-3px);
+ 
+  box-shadow: 
+    0 0 10px rgba(251, 9, 180, 0.7), 
+    0 0 20px rgba(145, 0, 248, 0.5), 
+    0 0 40px rgba(247, 233, 63, 0.3);
+}
+
+.hero{
+   background-image: url(./assets/hero-bg.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   width: 100%;
+   height: 760px;
+   margin-top: 0px;
+
+}
+
+ .image{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+}
+img , .new{
+  position: absolute;
+  left: center;
+  top: center;
+  z-index: +1;
+  margin-top:  550px;
+  align-items: center;
+
+
+}
+
+@keyframes spin {
+0% {
+    transform: scale(1); /* স্বাভাবিক সাইজ */
+  }
+  50% {
+    transform: scale(1.15); /* ১৫% বড় হবে */
+  }
+  100% {
+    transform: scale(1); /* আবার আগের সাইজে ফিরবে */
+  }
+}
+
+
+.new{
+   font-size: 18px;
+   background-color: #00FF88;
+   border-radius: 20px;
+   padding: 8px;
+   margin-top: 250px;
+   margin-left: 180px;
+   animation: spin 2s ease-in-out infinite;
+   
+}
