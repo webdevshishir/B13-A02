@@ -540,7 +540,8 @@ font-weight: 150;
 iframe{
    width: 390px;
    height: 300px;
-   padding: auto auto;
+   margin: 10px;
+   padding-left: 2px;
    
    
 }
