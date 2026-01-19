@@ -61,7 +61,7 @@ padding: 0px;
 
 .button{
 
-   
+   align-items: center;
     color: white;
     font-weight: 600;
   margin: 10px;
@@ -155,7 +155,8 @@ h1{
 }
 
 .msg{
-   padding: 13px;
+   padding: 12px;
+  
    border-radius: 20px;
    background-color: transparent;
    color: #00FF88;
@@ -175,17 +176,18 @@ h1{
    text-align: center;
    background-color:#1A0B2E;
    color: white;
+   padding-top: 50px;
 }
 .About  h1 {
    font-size: 48px;
-   padding-top: 15px;
+   
    
 
 }
 .About  p {
    font-size: 13px;
    font-weight: 200;
-   padding: 10px 200px;
+   padding: 15px 200px;
 
 }
 .points {
@@ -195,9 +197,11 @@ h1{
    
    
 }
+
+
 hr{
  
-   margin:0 50px;
+   margin:0 80px;
    
 }
 .points h1 {
@@ -205,11 +209,6 @@ hr{
    font-size: 40px;
    
 
-
-}
-.points p{
-   display: flex;
-   
 
 }
 
@@ -251,7 +250,8 @@ hr{
    display: block;
    margin-left: center;
    font-size: 48px;
-   padding: 20px;
+   padding: 50px;
+   margin-bottom: 20px;
    color: white;
 }
 .Global {
@@ -268,9 +268,12 @@ grid-column: span 2;
 }
 .Interview{
    grid-column: span 2;
+   padding-bottom: 200px;
 }
 .Rich {
    grid-row: span 1;
+      padding-bottom: 200px;
+
 }
 
 /* Section Videos  */
@@ -279,6 +282,7 @@ grid-column: span 2;
 .videos {
    background-color: #1A0B2E;
    color: white;
+   /* padding: 50px; */
 }
 .videos h2 {
    text-align: center;
@@ -307,7 +311,7 @@ iframe{
  .video{
    /* border: 1px solid white ; */
    border-radius: 20px;
-   background-color: #351165;
+   background-color: #230E3D;
    padding-left: 25px;
  }
  .video h5{
@@ -317,3 +321,59 @@ iframe{
  .video p{
    font-size: 15px;
  }
+ .clock{
+   text-align: left;
+   padding-bottom: 20px;
+   display: flex;
+   gap: 5px;
+   justify-items: center;
+ }
+
+
+ .host-container{
+   background-color: #1A0B2E;
+   display: flex;
+   
+   
+
+ }
+ .host{
+
+/* border: 2px solid white; */
+background-color: #230E3D;
+border-radius: 50px;
+padding: 50px;
+margin: 100px 250px;
+display: flex;
+gap: 20px;
+justify-content: center;
+justify-items: center;
+}
+
+.details {
+   color: white;
+}
+.details h2 {
+   font-size: 40px;
+}
+.details p{
+   font-size: 16px;
+   font-weight: 100;
+}
+
+.social-links{
+   display: flex;
+   gap: 10px;
+   justify-content: flex-start;
+   justify-items: center;
+   
+}
+.social-links img {
+   border: 1px solid #351165;
+   border-radius: 50%;
+   padding: 5px;
+   width: 20px;
+   height: 20px;
+
+
+}
