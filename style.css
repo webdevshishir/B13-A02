@@ -1,6 +1,7 @@
 *{
 margin: 0px;
 padding: 0px;
+
 }
 
 .inter-font {
@@ -10,7 +11,7 @@ padding: 0px;
 
 
 .header{
-    background-color: #412567 ;
+    background-color: #1A0B2E ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -168,3 +169,109 @@ h1{
    display: flex;
    gap: 8px;
 } */
+
+
+.About{
+   text-align: center;
+   background-color:#1A0B2E;
+   color: white;
+}
+.About  h1 {
+   font-size: 48px;
+   padding-top: 15px;
+   
+
+}
+.About  p {
+   font-size: 13px;
+   font-weight: 200;
+   padding: 10px 200px;
+
+}
+.points {
+   display: flex;
+   justify-content: space-evenly;
+   justify-items: center;
+   
+   
+}
+hr{
+ 
+   margin:0 50px;
+   
+}
+.points h1 {
+   color: #00FF88;
+   font-size: 40px;
+   
+
+
+}
+.points p{
+   display: flex;
+   
+
+}
+
+/* Section */
+
+.grids{
+   background-color: #230E3D;
+  padding: 50PX;
+}
+.grid{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,200px);
+   gap: 30px;
+   color: white;
+   
+}
+
+.Global , .Mobile , .location , .Interview , .Rich  
+{
+      background-color: #351165;
+      border-radius: 25px;
+      padding: 30px;
+
+}
+.grid h5 {
+   font-size: 24px;
+   padding-top:20px ;
+   
+}
+.grid p{
+   font-size: 16px;
+   font-weight: 100;
+   text-align: left;
+   padding-bottom: 30px;
+}
+.grids  h2 {
+   text-align: center;
+   display: block;
+   margin-left: center;
+   font-size: 48px;
+   padding: 20px;
+   color: white;
+}
+.Global {
+   
+   grid-row: span 2;
+}
+
+.Mobile{
+grid-column: span 2;
+
+}
+.location {
+   grid-column: span 2;
+}
+.Interview{
+   grid-column: span 2;
+}
+.Rich {
+   grid-row: span 1;
+}
+
+
+
