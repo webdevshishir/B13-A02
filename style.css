@@ -392,11 +392,13 @@ justify-items: center;
    background-image: url(./assets/footer-bg.png);
    background-repeat: no-repeat;
    background-size: cover;
+   background-position: center;
+   padding-top: 10px;
 
 }
 
 .footer h2{
-   padding-top: 150px;
+   padding-top: 40px;
    font-size: 100px;
    text-align: center;
 
@@ -414,14 +416,18 @@ justify-items: center;
 .foot-link{
    display: flex;
 justify-items: center;
+align-items: center;
 justify-content: space-between;
 padding-top: 25px;
 
 
-   gap:20px;
+   gap:60px;
 }
 
-
+.foot-txt{
+   display: flex;
+   gap: 10px;
+}
 
 .copy{
    padding-top: 40px;
@@ -442,7 +448,7 @@ font-weight: 150;
  }
 
    .header{
-   
+ 
      background-image: url(./assets/hamburger-menu.png);
      background-repeat: no-repeat;
    background-position-x:98%;
@@ -467,21 +473,26 @@ font-weight: 150;
    /* Hero section */
 
  .hero{
-   background-image: url(./assets/hero-bg.png);
+   background-image: url(./assets/Image.png);
    background-repeat:no-repeat ;
-   width: auto;
-   height: auto;
+   background-size: cover;
+   background-position: center;
+  
 }
 
             /* txt  */
 
-            .txt p{
-               
-               text-align: center;
-               
-
+            .txt h1{
+               padding:10px ;
             }
+            .txt p{
+                          text-align: center;
+            }
+.txt, h1  p{
+       align-items: center;
+    margin-top: 400px;
 
+}
    .button{
       padding:10px 30px;
    }         
@@ -577,18 +588,22 @@ text-align: center;
    align-items: center;
    justify-content: center;
 }
+.footer{
+   background-image: url(./assets/Image.png);
+}
 
 .footer h2{
    font-size: 60px;
+   padding-top: 20px;
    
 }
+
 .foot-link{
-   display:grid;
-   grid-template-columns: repeat(4,1fr) ;
-   grid-template-rows: repeat(2,1fr);
-   
-   row-gap: 20px;
-   column-gap: px;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(2,2fr);
+   row-gap: 15px;
+  
 
 }
 .points{
@@ -598,6 +613,66 @@ text-align: center;
    grid-template-rows: repeat(2,1fr);
 }
 
+
+
+ .image{
+  display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.hero-image , .new{
+  position: absolute;
+  left: center;
+  top: center;
+  z-index: +1;
+ margin-top: 450px;
+  align-items: center;
+
+
+}
+.new{
+   margin-top: 300px;
+   margin-left:150px;
+   /* width: 30px;
+   height: 15px;
+   padding: 5px; */
+
+}
+.hero-image{
+   width: 200px;
+}
+#mic{
+   width: 60px;
+}
+
+.YT{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   /* border: 10px solid white; */
+/* border-top-left-radius: 20px; */
+/* border-top-right-radius: 20px; */
+
+align-items: center;
+}
+
+.video{
+   padding: 0px 0px;
+   /* margin: 0 2px; */
+}
+.footer h2{
+           padding-top: 0px;
+        margin-top: -5px;
+}
+
+.txt, p {
+   padding-left: 10px;
+}
+.video h5{
+       padding-left: 10px;
+}
 
 
 
